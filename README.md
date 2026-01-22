@@ -3,11 +3,12 @@
 # 🔍 LLM Evaluation & Hallucination Detection Framework
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![LLMs](https://img.shields.io/badge/LLMs-Large%20Language%20Models-FF6B6B?style=for-the-badge)](https://en.wikipedia.org/wiki/Large_language_model)
-[![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-5A67D8?style=for-the-badge)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
-[![Evaluation](https://img.shields.io/badge/Evaluation-Pipelines-009688?style=for-the-badge)]()
+[![AsyncIO](https://img.shields.io/badge/AsyncIO-Asynchronous-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
+[![Pydantic](https://img.shields.io/badge/Pydantic-Data%20Validation-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://pydantic.dev/)
+[![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-Embeddings-FF6B6B?style=for-the-badge)]()
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![pytest](https://img.shields.io/badge/pytest-Testing-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org/)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)]()
 
 **Production-grade framework for systematic evaluation of LLM outputs, hallucination detection, and grounding quality assessment**
 
@@ -41,24 +42,36 @@
 
 ## 🛠️ Tech Stack & Technologies
 
-<div align="center">
+### Core Technologies
 
-| Category | Technologies |
-|:--------:|:-----------:|
-| **Language** | Python 3.10+ |
-| **AI/ML** | LLMs (Large Language Models) |
-| **Architecture** | RAG (Retrieval-Augmented Generation) |
-| **Framework** | Evaluation Pipelines |
-| **Libraries** | Sentence Transformers, NLTK, scikit-learn |
-| **Processing** | Async/Await, Batch Processing |
+| Category | Technology | Purpose |
+|----------|-----------|---------|
+| **Language** | Python 3.10+ | Core implementation language |
+| **Async Runtime** | AsyncIO | Concurrent evaluation processing |
+| **Data Validation** | Pydantic | Configuration and data model validation |
+| **Embeddings** | Sentence Transformers | Semantic similarity for hallucination detection |
+| **ML/Analytics** | scikit-learn | Statistical analysis and metrics |
+| **NLP** | NLTK | Text processing and tokenization |
+| **Data Processing** | NumPy | Numerical computations |
+| **Data Processing** | Pandas | Dataset manipulation and analysis |
+| **LLM APIs** | OpenAI / Anthropic APIs (optional) | Live model evaluation |
+| **Vector DB** | Pinecone / ChromaDB adapters | Retrieval quality validation |
+| **Testing** | pytest | Unit and integration testing |
+| **Containerization** | Docker (optional) | Containerized deployment |
 
-</div>
+### Technology Integration
 
-**Key Contributions:**
-- **Python**: Core implementation language for all evaluation logic
-- **LLMs**: Evaluation framework for Large Language Model outputs
-- **RAG**: Specialized evaluation for Retrieval-Augmented Generation systems
-- **Evaluation Pipelines**: End-to-end batch and streaming evaluation infrastructure
+- **Python 3.10+**: Core language with modern async/await support for concurrent evaluations
+- **AsyncIO**: Enables parallel processing of evaluation batches with configurable concurrency
+- **Pydantic**: Validates configuration settings and evaluation data structures
+- **Sentence Transformers**: Powers semantic similarity checks for answer-context overlap and grounding scoring
+- **scikit-learn**: Provides statistical aggregation, percentile calculations, and metric analysis
+- **NLTK**: Handles text tokenization and preprocessing for evaluation checks
+- **NumPy & Pandas**: Efficient numerical operations and dataset manipulation for batch processing
+- **OpenAI/Anthropic APIs**: Optional integration for live LLM output evaluation
+- **Vector DB Adapters**: Validates retrieval quality and context relevance in RAG systems
+- **pytest**: Comprehensive test suite for all evaluation components
+- **Docker**: Optional containerization for consistent deployment environments
 
 ---
 
