@@ -11,6 +11,8 @@
 
 **Production-grade framework for systematic evaluation of LLM outputs, hallucination detection, and grounding quality assessment**
 
+*Built with Python • LLMs • RAG • Evaluation Pipelines*
+
 *Built for ML reliability engineers, production validation, and quality assurance*
 
 [Features](#-key-features) • [Quick Start](#-quick-start) • [Architecture](#-architecture) • [Documentation](#-documentation)
