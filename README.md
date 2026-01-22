@@ -3,9 +3,11 @@
 # 🔍 LLM Evaluation & Hallucination Detection Framework
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![LLMs](https://img.shields.io/badge/LLMs-Large%20Language%20Models-FF6B6B?style=for-the-badge)](https://en.wikipedia.org/wiki/Large_language_model)
+[![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-5A67D8?style=for-the-badge)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+[![Evaluation](https://img.shields.io/badge/Evaluation-Pipelines-009688?style=for-the-badge)]()
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)]()
-[![Framework](https://img.shields.io/badge/Framework-Evaluation%20%26%20Testing-blue?style=for-the-badge)]()
 
 **Production-grade framework for systematic evaluation of LLM outputs, hallucination detection, and grounding quality assessment**
 
@@ -32,6 +34,29 @@
 | 🚀 **Production Ready** | End-to-end runnable framework | ✅ Production |
 
 </div>
+
+---
+
+## 🛠️ Tech Stack & Technologies
+
+<div align="center">
+
+| Category | Technologies |
+|:--------:|:-----------:|
+| **Language** | Python 3.10+ |
+| **AI/ML** | LLMs (Large Language Models) |
+| **Architecture** | RAG (Retrieval-Augmented Generation) |
+| **Framework** | Evaluation Pipelines |
+| **Libraries** | Sentence Transformers, NLTK, scikit-learn |
+| **Processing** | Async/Await, Batch Processing |
+
+</div>
+
+**Key Contributions:**
+- **Python**: Core implementation language for all evaluation logic
+- **LLMs**: Evaluation framework for Large Language Model outputs
+- **RAG**: Specialized evaluation for Retrieval-Augmented Generation systems
+- **Evaluation Pipelines**: End-to-end batch and streaming evaluation infrastructure
 
 ---
 
@@ -531,6 +556,13 @@ llm-evaluation-framework/
 ├── 📄 .env.example         # Environment template
 └── 📖 README.md            # This file
 ```
+
+### Technology Implementation
+
+- **Python**: All core evaluation logic, async processing, and data handling
+- **LLMs**: Evaluation framework designed for Large Language Model output validation
+- **RAG**: Specialized evaluation components for Retrieval-Augmented Generation systems
+- **Evaluation Pipelines**: Complete batch and streaming evaluation infrastructure
 
 ---
 
